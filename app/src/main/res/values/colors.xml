@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#04bbf9</color>
+    <color name="colorPrimaryDark">#04bbf9</color>
+    <color name="colorAccent">#cdccff</color>
+    <color name="colorSecondary">#FFFFFF</color>
+
+    <color name="colorPlayZone">#E9EBFF</color>
+    <color name="colorPlayOptionO">#0085FF</color>
+    <color name="colorPlayOptionX">#F54638</color>
+</resources>

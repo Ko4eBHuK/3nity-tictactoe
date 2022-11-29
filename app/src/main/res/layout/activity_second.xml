@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/default_gradient_background"
+    tools:context="okladnikov.tictactoe.ThirdActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/button0"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/shape_play_cell"
+        android:fontFamily="@font/bubbleboddy_fat"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="@color/colorPlayOptionO"
+        android:textSize="258px"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/shape_play_cell"
+        android:fontFamily="@font/bubbleboddy_fat"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="@color/colorPlayOptionO"
+        android:textSize="258px"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/shape_play_cell"
+        android:fontFamily="@font/bubbleboddy_fat"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="@color/colorPlayOptionO"
+        android:textSize="258px"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintStart_toEndOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/shape_play_cell"
+        android:fontFamily="@font/bubbleboddy_fat"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="@color/colorPlayOptionO"
+        android:textSize="258px"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button0" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/shape_play_cell"
+        android:fontFamily="@font/bubbleboddy_fat"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="@color/colorPlayOptionO"
+        android:textSize="258px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/shape_play_cell"
+        android:fontFamily="@font/bubbleboddy_fat"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="@color/colorPlayOptionO"
+        android:textSize="258px"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/shape_play_cell"
+        android:fontFamily="@font/bubbleboddy_fat"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="@color/colorPlayOptionO"
+        android:textSize="258px"
+        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@id/button4" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/shape_play_cell"
+        android:fontFamily="@font/bubbleboddy_fat"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="@color/colorPlayOptionO"
+        android:textSize="258px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button4" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/shape_play_cell"
+        android:fontFamily="@font/bubbleboddy_fat"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="@color/colorPlayOptionO"
+        android:textSize="258px"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@id/button4" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rounded_corner_btn"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingHorizontal="50dp"
+        android:text="@string/reset"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+
+    <ImageView
+        android:id="@+id/imageViewBack"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

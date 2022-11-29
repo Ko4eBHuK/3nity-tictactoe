@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/default_gradient_background"
+    tools:context="okladnikov.tictactoe.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewBack"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+
+    <ImageView
+        android:id="@+id/imgTicTacToe"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewBack"
+        app:srcCompat="@drawable/title" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgTicTacToe"
+        app:srcCompat="@drawable/iconsplash" />
+
+    <Button
+        android:id="@+id/btnSingle"
+        style="@style/AppTheme"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/shape_rounded_corner_btn"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/single_player"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon" />
+
+    <Button
+        android:id="@+id/btnMulti"
+        style="@style/AppTheme"
+        android:layout_width="230dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/shape_rounded_corner_btn"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/multiplayer"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSingle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
